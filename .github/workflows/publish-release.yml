@@ -1,0 +1,24 @@
+name: Publish Release Assets
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'staging/**'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload staged installers to GitHub Release v3.5.0
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ls staging/*.exe >/dev/null 2>&1; then
+            gh release view v3.5.0 >/dev/null 2>&1 || gh release create v3.5.0 --title "Vin Vin's Studio for Windows v3.5.0" --notes "Official Windows 64-bit desktop builds of Vin Vin's Studio."
+            gh release upload v3.5.0 staging/*.exe --clobber
+          fi
