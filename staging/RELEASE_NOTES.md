@@ -1,0 +1,5 @@
+- Renamed Formal Attire prompt buttons to Standard Formal, Face Lock, and Exact Head & Hair across Web, Windows Desktop, and Android
+- Added automatic in-app Update Checker, Update Notification banner, and 1-click updater on both Windows Desktop and Android
+- New 3D Transparent Liquid-Glass UI & reorganized Mode/Export button layout in Windows Desktop v3.6.0
+- Improved Android Mode tray so all 3 Formal Attire prompt styles sit immediately in view without scrolling + crisp History counter badge
+- Upgraded BRIA RMBG-2.0 / BiRefNet / BRIA RMBG-1.4 background remover & ModelScope Qwen-Image-Edit-2511 / Cloudflare FLUX.2 formal attire

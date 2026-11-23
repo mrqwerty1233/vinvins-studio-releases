@@ -19,16 +19,20 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           shopt -s nullglob
-          TAG="v3.5.0"
-          TITLE="Vin Vin's Studio v3.5.0 (Windows & Android)"
-          NOTES="Official public Windows x64 (.exe) and Android (.apk) builds of Vin Vin's Studio."
+          TAG="v3.6.0"
+          TITLE="Vin Vin's Studio v3.6.0 (Windows & Android)"
+          NOTES="Official public release of Vin Vin's Studio."
           if [ -f staging/RELEASE_TAG ]; then
             TAG="$(tr -d ' \r\n' < staging/RELEASE_TAG)"
-            TITLE="Vin Vin's Studio ${TAG}"
-            NOTES="Official public release ${TAG} of Vin Vin's Studio (Android APK & Desktop installers)."
+            TITLE="Vin Vin's Studio ${TAG} (Windows & Android)"
           fi
           FILES=(staging/*.exe staging/*.apk)
           if [ ${#FILES[@]} -gt 0 ]; then
-            gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TITLE" --notes "$NOTES"
+            if [ -f staging/RELEASE_NOTES.md ]; then
+              gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TITLE" --notes-file staging/RELEASE_NOTES.md
+              gh release edit "$TAG" --title "$TITLE" --notes-file staging/RELEASE_NOTES.md || true
+            else
+              gh release view "$TAG" >/dev/null 2>&1 || gh release create "$TAG" --title "$TITLE" --notes "$NOTES"
+            fi
             gh release upload "$TAG" "${FILES[@]}" --clobber
           fi
