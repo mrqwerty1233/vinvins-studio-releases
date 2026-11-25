@@ -3,6 +3,6 @@
 Official public downloads for **Vin Vin's Studio** (ID Photo, BRIA RMBG-2.0 Background Remover, AI Formal Attire & 300 DPI Print Sheets).
 
 - **Website:** https://background-remover-eight-khaki.vercel.app
-- **Windows Installer (v3.8.4):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.4/VinVinsStudio-Setup-3.8.4.exe
-- **Windows Portable (v3.8.4):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.4/VinVinsStudio-Portable-3.8.4.exe
+- **Windows Installer (v3.8.5):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.5/VinVinsStudio-Setup-3.8.5.exe
+- **Windows Portable (v3.8.5):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.5/VinVinsStudio-Portable-3.8.5.exe
 - **Android APK (v3.8.4):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.4/VinVinsStudio-v3.8.4-release.apk
