@@ -5,4 +5,4 @@ Official public downloads for **Vin Vin's Studio** (ID Photo, BRIA RMBG-2.0 Back
 - **Website:** https://background-remover-eight-khaki.vercel.app
 - **Windows Installer (v3.8.9):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.9/VinVinsStudio-Setup-3.8.9.exe
 - **Windows Portable (v3.8.9):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.9/VinVinsStudio-Portable-3.8.9.exe
-- **Android APK (v3.8.9):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.9/VinVinsStudio-v3.8.9-release.apk
+- **Android APK (v3.8.10):** https://github.com/mrqwerty1233/vinvins-studio-releases/releases/download/v3.8.10/VinVinsStudio-v3.8.10-release.apk
