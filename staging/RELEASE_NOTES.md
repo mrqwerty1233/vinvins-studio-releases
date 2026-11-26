@@ -1,5 +1,0 @@
-## Vin Vin's Studio Android v3.8.8
-
-- **Built-In In-App Studio Camera (App Exclusive)**: Full-screen CameraX camera right inside Vin Vin's Studio (never launches an external camera app) with ID Head & Shoulders framing guide, Signature Box guide, tap-to-focus, 1×/1.5×/2× zoom pills, flash toggle, 3s/5s self-timer, front/rear flip, and instant Retake / Use Photo review.
-- **Cleaner Mobile Layout & Zero Wasted Space**: Adaptive content-hugging bottom tool tray removes the empty vertical void, balanced TopBar fixes right-side spacing, non-truncating 5-tab Edit bar (`BG · Tone · Angle · Name · Sign`), and zero duplicate Upload buttons.
-- **Smart Dropdown Selectors & Separated Buttons**: Multi-option controls (Photo Size, Paper Size, Margins, Attire, AI Engine, Formal Style, Backdrop Color, Name Style/Font/Color, Signature Ink/Placement, and Export Format) now use crisp Liquid-Glass dropdown menus, with clearly separated `Upload` / `Camera` / `Try Sample` / `Preview Layout` and `Gallery` / `Format ▾` / `Save` / `Print & Share` buttons.
