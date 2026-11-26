@@ -1,7 +1,0 @@
-Official public release of **Vin Vin's Studio v3.9.1** for **Windows Desktop (.exe)** and **Android (.apk)**.
-
-### What's New in v3.9.1
-- **100% Commercial-Safe AI Pipeline (Web, Windows & Android):** Removed all non-commercial fallback models (`BRIA RMBG`, `FLUX.2-klein-9B`, `FLUX.1-Kontext-Dev`); now routes exclusively to commercial-safe **MIT BiRefNet RMBG** + on-device **ML Kit / Apache-2.0 MODNet** cutouts and **Apache-2.0 Qwen-Image-Edit-2511** & **FLUX.2 Klein 4B** formal attire.
-- **Google Play Store & API 36 Ready (Android):** 16 KB page-size aligned native libraries (`arm64-v8a`, `x86_64`), `play` and `direct` build flavors, spacious 2×2 Bug & AI Output reporting dialog, complete multi-person 1-tap Data Deletion (cancels all in-flight jobs & resets every person slot), verified AndroidKeyStore save feedback, and `FileProvider`-safe URI handling on Android 7–9.
-- **Security & Updater Hardening (Web & Windows Desktop):** Manual redirect-hop validation + IPv6 private/link-local/mapped SSRF filtering on `/api/removebg` and `/api/formal`, strict built-in quota enforcement, valid HTML inline person rename (`<div>` container) on Electron & browsers, stable update progress listener, and balanced 2×2 Feedback modal.
-- **Built-In Pro Camera & Auto Multi-Person Print Sheet:** Lifted thumb-zone camera capture deck with 3 compact dropdowns (Crop, Quality/ISP, Tools), Ultra HD capture, live/review crop layouts, automatic multi-person Print Sheet syncing, and 300 DPI JPG/PNG/WebP/PDF/Word (`.docx`) exports.
